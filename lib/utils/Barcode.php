@@ -138,7 +138,7 @@ class Barcode
     public static function getImage($code)
     {
         $barcode = new Barcode();
-        $barcode->getBarcode($code);
+        return $barcode->getBarcode($code);
     }
 
     /**
