@@ -1,5 +1,5 @@
 {
-    "name": "php-object-boleto", 
+    "name": "luisdalmolin/php-object-boleto", 
 
     "autoload": {
         "classmap": [
