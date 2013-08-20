@@ -1,7 +1,7 @@
 <div id="recibo">
     <!--  cabecalho  -->
     <div class="cabecalho">
-        <div class="banco_logo "><img src="<?php echo OB::url() . '/images/' . $OB->Banco->Image);?>" /></div>
+        <div class="banco_logo "><img src="<?php echo OB::url() . '/images/' . $OB->Banco->Image;?>" /></div>
                     <div class="banco_codigo "><?php echo Math::Mod11($OB->Banco->Codigo, 0, 0, true)?></div>
         <div class="linha_digitavel"><?php echo $OB->linhaDigitavel();?></div>
     </div>
