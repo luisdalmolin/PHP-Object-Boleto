@@ -1,6 +1,7 @@
 <?php
 
-class OB{
+class OB 
+{
     
     /*
         @var object $Vendedor
@@ -37,6 +38,14 @@ class OB{
         Dados utilizados na geração do código de barras e da linha digitável
      */
     public $Data = array();
+
+    /**
+     * URL publica
+     *
+     * @static
+     * @var  string
+     */
+    public static $publicUrl = '/packages/luisdalmolin/php-object-boleto';
     
     
     /**
@@ -308,8 +317,9 @@ class OB{
       * 
       * @version 0.1 19/05/2011 Initial
       */
-    public static function url($url = null){
-        return preg_replace('([\\\/]+)','/',dirname(dirname(dirname(substr(__FILE__, strlen($_SERVER['DOCUMENT_ROOT']))))) . '//' . $url);
+    public static function url()
+    {
+        return static::$publicUrl;
     }
     
     /**
