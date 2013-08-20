@@ -317,9 +317,9 @@ class OB
       * 
       * @version 0.1 19/05/2011 Initial
       */
-    public static function url()
+    public static function url($file = null)
     {
-        return static::$publicUrl;
+        return static::$publicUrl . $file;
     }
     
     /**
