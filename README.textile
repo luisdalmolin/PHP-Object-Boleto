@@ -1,3 +1,4 @@
+Este projeto é um fork do original https://github.com/klawdyo/PHP-Object-Boleto, com algumas alterações para permitir a utilização através do Composer.
 
 h1. Descrição
 

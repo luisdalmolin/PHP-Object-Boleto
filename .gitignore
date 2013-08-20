@@ -1,6 +1,5 @@
 logo_empresa.png
 esquema.png
-.gitignore
 *.komodoproject
 TODO.txt
 arquivos/*
@@ -9,3 +8,6 @@ teste.php
 lib/utils/validation_component.php
 testes/*
 lib/bancos/Santander/
+
+/vendor
+composer.lock

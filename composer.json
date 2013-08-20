@@ -1,0 +1,11 @@
+{
+    "name": "php-object-boleto", 
+
+    "autoload": {
+        "classmap": [
+            "lib/bancos", 
+            "lib/core", 
+            "lib/utils"
+        ]
+    }
+}
